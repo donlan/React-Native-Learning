@@ -39,3 +39,9 @@
 * 自适应
 
    
+# 缺点
+1. Android平台打包体积过大（bundle过大，.so库大）
+2. 目前没有1.0 release，难免会有坑（官方文档，github中的issue）
+3. 生态不够完善，很多组件需要自己桥接
+4. react-native本身不兼容web端(有第三方扩展框架 react-web，携程moles)
+5. 页面降级问题
